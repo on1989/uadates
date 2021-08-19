@@ -1,0 +1,239 @@
+/**
+custom-icons Webfont
+*/
+
+
+@font-face {
+    font-family: 'custom-icons';
+    src: url('../fonts/custom-icons.eot?1508487269484');
+    src: url('../fonts/custom-icons.eot?#iefix-1508487269484') format('embedded-opentype'), url('../fonts/custom-icons.woff2?1508487269484') format('woff2'), url('../fonts/custom-icons.woff?1508487269484') format('woff'), url('../fonts/custom-icons.ttf?1508487269484') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^='icon-']:before,
+[class*=' icon-']:before {
+    font-family: 'custom-icons';
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    font-size: inherit;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*
+Glyphs list
+*/
+
+.icon-ashtray:before {
+        content: '\ea01';
+    }
+    .icon-baby:before {
+        content: '\ea02';
+    }
+    .icon-back:before {
+        content: '\ea03';
+    }
+    .icon-best:before {
+        content: '\ea04';
+    }
+    .icon-broadcast:before {
+        content: '\ea05';
+    }
+    .icon-businessman:before {
+        content: '\ea06';
+    }
+    .icon-calendar:before {
+        content: '\ea07';
+    }
+    .icon-camera:before {
+        content: '\ea08';
+    }
+    .icon-chat:before {
+        content: '\ea09';
+    }
+    .icon-checked:before {
+        content: '\ea0a';
+    }
+    .icon-children:before {
+        content: '\ea0b';
+    }
+    .icon-close:before {
+        content: '\ea0c';
+    }
+    .icon-cogwheel:before {
+        content: '\ea0d';
+    }
+    .icon-crescent-moon:before {
+        content: '\ea0e';
+    }
+    .icon-edit:before {
+        content: '\ea0f';
+    }
+    .icon-elegant-lady:before {
+        content: '\ea10';
+    }
+    .icon-email:before {
+        content: '\ea11';
+    }
+    .icon-emailOPEN:before {
+        content: '\ea12';
+    }
+    .icon-eye:before {
+        content: '\ea13';
+    }
+    .icon-facebook:before {
+        content: '\ea14';
+    }
+    .icon-farm:before {
+        content: '\ea15';
+    }
+    .icon-gallery:before {
+        content: '\ea16';
+    }
+    .icon-gift:before {
+        content: '\ea17';
+    }
+    .icon-giftbox:before {
+        content: '\ea18';
+    }
+    .icon-height:before {
+        content: '\ea19';
+    }
+    .icon-history:before {
+        content: '\ea1a';
+    }
+    .icon-home:before {
+        content: '\ea1b';
+    }
+    .icon-id-card:before {
+        content: '\ea1c';
+    }
+    .icon-key:before {
+        content: '\ea1d';
+    }
+    .icon-link:before {
+        content: '\ea1e';
+    }
+    .icon-list:before {
+        content: '\ea1f';
+    }
+    .icon-magnifier:before {
+        content: '\ea20';
+    }
+    .icon-man-hair:before {
+        content: '\ea21';
+    }
+    .icon-mortarboard:before {
+        content: '\ea22';
+    }
+    .icon-next:before {
+        content: '\ea23';
+    }
+    .icon-pacifier:before {
+        content: '\ea24';
+    }
+    .icon-phone-call:before {
+        content: '\ea25';
+    }
+    .icon-placeholder:before {
+        content: '\ea26';
+    }
+    .icon-play-button:before {
+        content: '\ea27';
+    }
+    .icon-praying-hands:before {
+        content: '\ea28';
+    }
+    .icon-profit:before {
+        content: '\ea29';
+    }
+    .icon-reply:before {
+        content: '\ea2a';
+    }
+    .icon-rotate:before {
+        content: '\ea2b';
+    }
+    .icon-rubbish-bin:before {
+        content: '\ea2c';
+    }
+    .icon-shutter:before {
+        content: '\ea2d';
+    }
+    .icon-signal-status:before {
+        content: '\ea2e';
+    }
+    .icon-smile:before {
+        content: '\ea2f';
+    }
+    .icon-smiling-girl:before {
+        content: '\ea30';
+    }
+    .icon-sort-arrows-couple-pointing-up-and-down:before {
+        content: '\ea31';
+    }
+    .icon-speech-bubble:before {
+        content: '\ea32';
+    }
+    .icon-star:before {
+        content: '\ea33';
+    }
+    .icon-starVIP:before {
+        content: '\ea34';
+    }
+    .icon-star_active:before {
+        content: '\ea35';
+    }
+    .icon-success:before {
+        content: '\ea36';
+    }
+    .icon-support:before {
+        content: '\ea37';
+    }
+    .icon-translate:before {
+        content: '\ea38';
+    }
+    .icon-translation:before {
+        content: '\ea39';
+    }
+    .icon-user:before {
+        content: '\ea3a';
+    }
+    .icon-wallet:before {
+        content: '\ea3b';
+    }
+    .icon-warning:before {
+        content: '\ea3c';
+    }
+    .icon-web-link:before {
+        content: '\ea3d';
+    }
+    .icon-webcam:before {
+        content: '\ea3e';
+    }
+    .icon-wedding-rings:before {
+        content: '\ea3f';
+    }
+    .icon-weight-loss:before {
+        content: '\ea40';
+    }
+    .icon-wig:before {
+        content: '\ea41';
+    }
+    .icon-wine:before {
+        content: '\ea42';
+    }
+    .icon-women-waist:before {
+        content: '\ea43';
+    }
+    .icon-wrench:before {
+        content: '\ea44';
+    }

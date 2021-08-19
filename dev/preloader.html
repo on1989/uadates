@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-content">
+            <img src="img/logo.svg" alt="Preloader image">
+            <div class="preloader_num">0%</div>
+            <div class="preloader_line"></div>
+        </div>
+    </div>
+<link rel="stylesheet" href="css/main.css">
+<script>
+//    START PRELOADER
+loader();
+
+function loader(_success) {
+	var obj 	= document.querySelector('.preloader'),
+	line 	= document.querySelector('.preloader_line'),
+	num 	= document.querySelector('.preloader_num');
+
+	var w = 0,
+	t = setInterval(function () {
+		w = w + 1;
+		line.style.width = w + '%';
+		num.textContent = w + '%';
+		if (w === 100) {
+			obj.style.display = 'none';
+			clearInterval(t);
+
+			w = 0;
+			if (_success) {
+				return _success();
+			}
+		}
+	}, 20);
+};
+//END PRELOADER
+</script>
+</body>
+</html>

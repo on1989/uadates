@@ -1,0 +1,125 @@
+header
+{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color:  #212121;
+    right: 0;
+    left: 0;
+    padding-top: 4px;
+    form
+    {
+        display: inline-block;
+        text-align: right;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        vertical-align: top;
+        width: calc(100% - 340px);
+    }
+    .input
+    {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 33px;
+        width: 222px;
+        position: relative;
+        input
+        {
+            display: block;
+            &[type="text"],
+            &[type="password"]
+            {
+                width: 100%;
+                background-color:  #e5e5ea;
+                border: 1px solid #95989a;
+                color: #000;
+                &::-webkit-input-placeholder
+                {
+                    color: #000;
+                    font-weight: 500;
+                    font-family: 'AvenirNextLTPro';
+                }
+                &::-moz-placeholder
+                {
+                    color: #000;
+                    font-weight: 500;
+                    font-family: 'AvenirNextLTPro';
+                }
+                &:-ms-input-placeholder
+                {
+                    color: #000;
+                    font-style: italic;
+                    font-weight: 500;
+                    font-family: 'AvenirNextLTPro';
+                }
+                &:-moz-placeholder
+                {
+                    color: #000;
+                    font-weight: 500;
+                    font-family: 'AvenirNextLTPro';
+                }
+            }
+
+        }
+        a
+        {
+            float: left;
+            color: #F5576C;
+            font-size: 12px;
+            font-weight: 500;
+        }
+    }
+
+    input
+    {
+        &[type="submit"]
+        {
+            border:none;
+            background-color: #616161;
+            box-shadow: 1px 3px 5.82px 0.18px rgba(0, 0, 0, 0.15);
+            width: 130px;
+            height: 32px;
+            display: inline-block;
+            border-radius: 15px;
+            color:  #ffffff;
+            font-size: 14px;
+            font-weight: 700;
+            margin-left: 30px;
+            -webkit-transition: all 0.8s ease;
+            -moz-transition: all 0.8s ease;
+            -ms-transition: all 0.8s ease;
+            -o-transition: all 0.8s ease;
+            transition: all 0.8s ease;
+            &:hover
+            {
+                background-color:#484848;
+            }
+            &:focus
+            {
+                background: #575757;
+            }
+        }
+    }
+    .logo
+    {
+        display: inline-block;
+        margin-top: 3px;
+        a
+        {
+            display: block;
+        }
+        span
+        {
+            display: inline-block;
+            font-family: 'Yellowtail';
+            font-size: 24px;
+            color: #77c8ff;
+            vertical-align: middle;
+        }
+        img
+        {
+            height: 45px;
+            vertical-align: middle;
+        }
+    }
+}
